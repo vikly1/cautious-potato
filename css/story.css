@@ -1,0 +1,389 @@
+:root {
+    --main-color: #EEE1D4;
+    --white: #fff;
+    --rgb-scroll:-webkit-linear-gradient(0deg, rgba(168,195,34,1) 0%, rgba(253,187,45,1) 100%);
+    --black: #000;
+  }
+
+.prev__story {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.prev__story div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 100%;
+    align-items: center;
+}
+
+.prev__story p {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.prev__story img {
+    height: 500px;
+    widows: 100%;
+}
+
+.footer__house-imgcont {
+    max-width: 1000px;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    
+}
+
+.footing__house {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footing__house-imblock {
+    background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    width: 800px;
+    height: 100%;
+    max-height: 520px;
+    border-radius: 10px;
+}
+
+.footing__house-imblockN1 {
+    background-image: url("/assets/img/2list/exterior1.jpg");
+    right: 30%;
+    top: 30%;
+    z-index: 1;
+    opacity: 1;
+    scale: 105%;
+    transition: scale 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+    will-change: opacity;
+    width: 70%;
+    height: 70%;
+}
+
+.footing__house-imblockN2 {
+    background-image: url("/assets/img/2list/back.jpg");
+    left: 30%;
+    bottom: 30%;
+    opacity: 0.65;
+    transition: z-index 0.1s step-start, scale 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+    will-change: opacity;
+    width: 70%;
+    height: 70%;
+}
+
+.footing__house-imblockN2:hover {
+    z-index: 1;
+    opacity: 1;
+    scale: 105%;
+}
+.footing__house-imblockN2:hover + .footing__house-imblockN1{
+    opacity: 0.65;
+    scale: 100%;
+    z-index: -1;
+    transition: z-index 0.1s step-end, scale 0.4s ease-in-out, opacity 0.4s ease-in-out ;
+}
+
+.footing__house-txt{
+    display: flex;
+    margin: 0 auto;
+    width: 1587px;
+    height: 100%;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.footing__house-txt p{
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.home_place{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    background-color: var(--white);
+    height: 800.769px;
+    justify-content: space-between;
+}
+
+.home_place-imtxt img{
+    width: 650.064px;
+    height: 700.383px;
+}
+
+.home_place-imtxt {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.home_place-txt{
+    width: 634px;
+    height: 100%;
+    font-size: 2.5rem;
+    max-width: 100%;
+}
+
+.church_place{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    height: 800.769px;
+    justify-content: space-between;
+}
+
+.church_place-imtxt img{
+    width: 600.064px;
+    height: 700.383px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.church_place-imtxt {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.church_place-txt{
+    width: 634px;
+    height: 100%;
+    font-size: 40px;
+    text-align: end;
+    max-width: 100%;
+}
+
+.man__place{
+    width: 100%;
+    background-color: var(--white);
+    margin-top: 20px;
+    height: 100%;
+}
+
+.man-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.man__text-title {
+    width: 1507px;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    max-width: 100%;
+}
+
+.man__txtportrait {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.man__txtportrait img {
+    width: 780px;
+    height: 780px;
+    max-width: 100%;
+}
+
+.man__txtportrait p {
+    text-align: end;
+    width: 400px;
+    height: 100%;
+    font-size: 38px;
+    max-width: 100%;
+}
+
+.man__text-last {
+    margin: 0 auto;
+    display: flex;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.war__title{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.war-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.war-blocks img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.war-blocks p {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer{
+    height: 50x;
+    width: 100%;
+}
+
+.footer-block{
+    background-color:   var(--black);
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer__text{
+    color: var(--white);
+    font-size: 26px;
+}
+
+.footer-main nav{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+}
+
+.footer-main ul{
+    list-style: none;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.footer-main a{
+    font-size: 36px;
+    color: var(--white-text);
+}
+
+.footer-main li{
+    margin-top: 17px;
+}
+
+@media(max-width: 1480px){
+
+    .prev__story p{
+        font-size: 3rem;
+    }
+    
+    .footing__house-txt p{
+        font-size: 1.5rem;
+    }
+
+    .home_place-txt{
+        font-size: 1.5rem;
+    }
+    .home_place-imtxt{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_place{
+        height: auto;
+    }
+
+    .home_place-txt {
+        text-align: center;
+        width: 100%;
+    }
+
+    .church_place{
+        height: auto;
+    }
+
+    .church_place-imtxt{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .church_place-imtxt img{
+        order: 1;
+    }
+
+    .church_place-txt {
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+        order: 2;
+    }
+
+    .man__text-title {
+        font-size: 1.5rem;
+    }
+
+    .man__txtportrait{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .man__txtportrait p{
+        order: 2;
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .man__txtportrait img{
+        height: auto;
+    }
+
+    .war-blocks p{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1080px){
+    .footer{
+        display: none;
+    }
+
+    .footing__house-imblockN2{
+        left: 25%;
+        min-height: 400px;
+        height:auto !important; 
+    }
+
+    .footing__house-imblockN1{
+        right: 25%;
+        height:auto;
+        min-height: 400px;
+        height:auto !important; 
+        top: 40%;
+    }
+}

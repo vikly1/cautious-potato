@@ -1,0 +1,138 @@
+:root {
+    --main-color: #EEE1D4;
+    --white: #fff;
+    --rgb-scroll:-webkit-linear-gradient(0deg, rgba(168,195,34,1) 0%, rgba(253,187,45,1) 100%);
+    --black: #000;
+  }
+
+  .prev__contacts{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.prev__contacts div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.prev__contacts p {
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.map div {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    width: 900px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.map script {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    width: 900px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.footer{
+    height: 50x;
+    width: 100%;
+}
+
+.footer-block{
+    background-color:   var(--black);
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer__text{
+    color: var(--white);
+    font-size: 26px;
+}
+
+.footer-main nav{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+}
+
+.footer-main ul{
+    list-style: none;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.footer-main a{
+    font-size: 36px;
+    color: var(--white-text);
+}
+
+.footer-main li{
+    margin-top: 17px;
+}
+
+@media(max-width:1080px){
+    .footer{
+        display: none;
+    }
+}
+
+@media(max-width:900px){
+    .map div {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        width: 90%;
+        border-radius: 30px;
+        overflow: hidden;
+        height: 400px;
+    }
+    
+    .map script {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        width: 900px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    .prev__contacts p{
+        font-size: 3rem;
+    }
+    .prev__contacts{
+        margin-bottom: 10px;
+    }
+}

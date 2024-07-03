@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+body {
+    height: 100%;
+    margin: 0;
+    background: #EAEBEA;
+}
+
+.fon{
+  
+}
+
+.logotype{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  transition: all 0.7s;
+  max-width: 50%;
+  
+}
+
+.logotype img {
+  width: 300px;
+  margin-top: 5px;
+}
+
+.logotype:hover{
+  transform: scale(1.1);
+}
+
+.title{
+  height: 200px;
+  font-size: 1.5rem;
+  left: 2%;
+  background: #EED4BF;
+  border-radius: 20px;
+}
+
+p{
+ width: 600px;
+ font-weight: bold;
+ max-width: 100%;
+ align-items: center;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+#block{
+    width: 600px;
+    background: #E0E1E0;
+    height: 550px;
+    display: flex;
+    border-radius: 20px;
+    max-width: 100%;
+    align-items: center;
+    left: 400px;
+    
+  }
+
+  canvas{
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+
